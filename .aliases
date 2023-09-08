@@ -1,7 +1,17 @@
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -a -l"
+alias c="clear"
+alias grepc="grep --color=always"
 
+function mkdirgo() {
+    mkdir $1
+    cd $1
+}
+
+function vopen() {
+    
+}
 
 
 
